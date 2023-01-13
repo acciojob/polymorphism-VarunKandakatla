@@ -3,7 +3,7 @@ package com.driver;
 import java.util.Scanner;
 
 public class Main {
-    static class Product{
+    public static class Product{
         public int product(int x,int y)
         {
             return x*y;
@@ -19,6 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        Main m=new Main();
         Product p=new Product();
 
         System.out.println(p.product(sc.nextInt(), sc.nextInt()));
@@ -28,4 +29,6 @@ public class Main {
 
 
     }
+
+
 }
